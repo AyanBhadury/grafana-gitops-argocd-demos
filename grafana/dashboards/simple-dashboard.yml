@@ -11,7 +11,7 @@ spec:
   json: >
     {
     "id": null,
-    "title": "Simple Dashboard",
+    "title": "Simple Dashboard from argocd sync",
     "tags": [],
     "style": "dark",
     "timezone": "browser",
