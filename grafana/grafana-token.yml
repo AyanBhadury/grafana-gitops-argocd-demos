@@ -4,5 +4,5 @@ metadata:
   name: grafana-cloud-credentials
   namespace: 'default'
 stringData:
-  GRAFANA_CLOUD_INSTANCE_TOKEN: 'GF_TOKEN'
+  GRAFANA_CLOUD_INSTANCE_TOKEN: '${{ secrets.GF_TOKEN }}'
 type: Opaque
