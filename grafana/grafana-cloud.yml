@@ -10,4 +10,4 @@ spec:
     url: https://ayanlab.grafana.net/
     apiKey:
       name: grafana-cloud-credentials
-      key: ${{ secrets.GF_TOKEN }}
+      key: GRAFANA_CLOUD_INSTANCE_TOKEN
