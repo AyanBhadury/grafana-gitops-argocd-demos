@@ -1,0 +1,13 @@
+apiVersion: grafana.integreatly.org/v1beta1
+kind: Grafana
+metadata:
+  name: 'ayanlab'
+  namespace: 'default'
+  labels:
+    dashboards: 'ayanlab'
+spec:
+  external:
+    url: https://ayanlab.grafana.net/
+    apiKey:
+      name: grafana-cloud-credentials
+      key: glsa_lkS1XFYEGtV4AWTr1Aa8J7x5HLqSKGpJ_35ecba6c

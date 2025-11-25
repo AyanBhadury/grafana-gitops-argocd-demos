@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: grafana-cloud-credentials
+  namespace: 'default'
+stringData:
+  GRAFANA_CLOUD_INSTANCE_TOKEN: 'glsa_lkS1XFYEGtV4AWTr1Aa8J7x5HLqSKGpJ_35ecba6c'
+type: Opaque
